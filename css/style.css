@@ -5,6 +5,8 @@ body {
 	font-family: Usual, sans-serif;
 	font-size: 14px;
 	color: white;
+	background: rgb(39,32,22);
+	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
 	}
 
 h1 {
@@ -20,10 +22,15 @@ h1 {
 }
 
 .homepage-grid {
-	display: inline-grid;
+	display: inline-block;
 	vertical-align: right;
 	margin-right: 0;
 	grid-template-columns: 1fr;
+}
+
+.subpage-logo {
+	width: 25vw;
+
 }
 
 h2 {
@@ -33,7 +40,9 @@ h2 {
 	color: white;
 }
 
-header {margin-bottom: 20px;}
+header {
+	margin-bottom: 20px;
+}
 
 .grid {
 	display: grid;
@@ -54,10 +63,10 @@ header {margin-bottom: 20px;}
 	}
 
 	.grid {
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 20px;
-	width: 70%;
-	margin: auto;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+		width: 70%;
+		margin: auto;
 	}
 }
 
@@ -66,8 +75,8 @@ header {margin-bottom: 20px;}
 		background-color: salmon;
 	}
 
-	.grid {
-	grid-template-columns: 1fr 1fr 1fr;
+	.grid {	
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
@@ -77,6 +86,6 @@ header {margin-bottom: 20px;}
 	}
 
 	.grid {
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 }

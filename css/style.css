@@ -3,36 +3,37 @@
 
 body { 
 	font-family: Usual, sans-serif;
-	font-size: 13px;
-	 }
-
-h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
-}
+	font-size: 14px;
+	color: white;
+	}
 
 h1 {
+	font-family: Henderson Slab, sans-serif;
+	font-weight: 300;
 	font-size: 48px;
+	color: white;
+}
+
+.homepage-logo {
+	margin: auto;
+	width: 50vw;
+}
+
+.homepage-grid {
+	display: inline-grid;
+	vertical-align: right;
+	margin-right: 0;
+	grid-template-columns: 1fr;
 }
 
 h2 {
-	font-size: 36px;
-}
-
-blockquote {
-	margin: 20px 60px;
-	font-family: Helvetica, sans-serif;
+	font-family: Henderson Slab, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: white;
 }
 
 header {margin-bottom: 20px;}
-
-/* ensures that your images stretch the width of their containers */
-img { width: 100%; }
-
-a { 
-	color: red;
-	text-decoration: none;
-	 }
-a:hover { color: black; }
 
 .grid {
 	display: grid;
@@ -46,11 +47,6 @@ a:hover { color: black; }
 	background-color: #ccc;
 	padding: 20px;
 }
-/*
-font-family: 'Mansalva', cursive;
-font-family: 'Dosis', sans-serif;
-font-family: 'Indie Flower', cursive;
-*/
 
 @media only screen and (min-width: 768px) {
 	body {
@@ -59,7 +55,7 @@ font-family: 'Indie Flower', cursive;
 
 	.grid {
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
+	grid-gap: 20px;
 	width: 70%;
 	margin: auto;
 	}

@@ -1,18 +1,15 @@
 /* Enter your Styles below! */
 
 
-body { 
-	font-family: Usual, sans-serif;
-	font-size: 14px;
-	color: white;
-	background: rgb(39,32,22);
-	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
+body {
+	/*background: rgb(39,32,22);
+	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);*/
 	}
 
 h1 {
 	font-family: Henderson Slab, sans-serif;
 	font-weight: 300;
-	font-size: 48px;
+	font-size: 35px;
 	color: white;
 }
 
@@ -29,8 +26,7 @@ h1 {
 }
 
 .subpage-logo {
-	width: 25vw;
-
+	width: 15vw;
 }
 
 h2 {
@@ -44,6 +40,28 @@ header {
 	margin-bottom: 20px;
 }
 
+nav {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+body-paragraph {
+	font-family: Usual, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -55,6 +73,10 @@ header {
 .grid div {
 	background-color: #ccc;
 	padding: 20px;
+}
+
+footer p {
+	text-align: right;
 }
 
 @media only screen and (min-width: 768px) {

@@ -130,6 +130,11 @@ footer {
 	display: flex;
 	position: absolute;
 	padding: 7vw;
+	margin-top: 7vw;
+	background-color: #262626;
+	width: 100vw;
+	color: white;
+	font-family: Usual, sans-serif;
 }
 
 @media only screen and (min-width: 768px) {

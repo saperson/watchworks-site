@@ -1,15 +1,16 @@
 /* Enter your Styles below! */
 
 html {
-	height: 100vw;
+	height: 100%;
 }
 
 body {
 	height: 100%;
-	background-color: gray;
-	/*background: rgb(39,32,22);
+/*	background-color: gray;*/
+	background: rgb(39,32,22);
 	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 h1 {
@@ -96,15 +97,14 @@ p {
 .grid {
 	display: inline-grid;
 	grid-template-columns: 1fr;
-	grid-gap: 40px;
+	grid-gap: 10px;
 	width: 90%;
-	margin: auto;
+	margin: 0vw 7vw;
 }
 
 .grid div {
 	background-color: darkgray;
 	padding: 20px;
-	margin-left: 7vw;
 }
 
 .about-body {
@@ -126,10 +126,9 @@ p {
 
 }
 
-footer p {
-	text-align: right;
-	font-family: Usual,  sans-serif;
-	font-size: 10px;
+footer {
+	position: absolute;
+	bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {

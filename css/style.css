@@ -2,9 +2,9 @@
 
 
 body {
-	/*background: rgb(39,32,22);
-	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);*/
-	}
+	background: rgb(39,32,22);
+	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
+}
 
 h1 {
 	font-family: Henderson Slab, sans-serif;
@@ -25,10 +25,6 @@ h1 {
 	grid-template-columns: 1fr;
 }
 
-.subpage-logo {
-	width: 15vw;
-}
-
 h2 {
 	font-family: Henderson Slab, sans-serif;
 	font-weight: 700;
@@ -38,6 +34,10 @@ h2 {
 
 header {
 	margin-bottom: 20px;
+}
+
+header img {
+	width: 15vw;
 }
 
 nav {
@@ -52,8 +52,8 @@ nav {
 
 nav ul li {
 	float: left;
-	padding-left: 5vw;
-	padding-right: 5vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
 }
 
 body-paragraph {
@@ -63,7 +63,7 @@ body-paragraph {
 }
 
 .grid {
-	display: grid;
+	display: inline-grid;
 	grid-template-columns: 1fr;
 	grid-gap: 40px;
 	width: 90%;

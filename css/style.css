@@ -1,9 +1,14 @@
 /* Enter your Styles below! */
 
+html {
+	height: 100%;
+}
 
 body {
+	height: 100%;
 	background: rgb(39,32,22);
 	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -19,7 +24,7 @@ h1 {
 }
 
 .homepage-grid {
-	display: inline-block;
+	display: none;
 	vertical-align: right;
 	margin-right: 0;
 	grid-template-columns: 1fr;
@@ -41,17 +46,17 @@ header img {
 }
 
 nav {
-	display: inline-block;
+	display: block;
 	list-style-type: none;
 	text-decoration: none;
-	margin: 0;
-	padding: 0;
+	margin: auto;
 	text-align: center;
-	float: right;
+	float: center;
+	width: 50%;
 }
 
 nav ul li {
-	float: left;
+	float: center;
 	padding-left: 3vw;
 	padding-right: 3vw;
 }

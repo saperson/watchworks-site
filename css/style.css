@@ -1,7 +1,7 @@
 /* Enter your Styles below! */
 
 html {
-	height: 100%;
+	height: 100vw;
 }
 
 body {
@@ -101,6 +101,25 @@ p {
 .grid div {
 	background-color: #ccc;
 	padding: 20px;
+}
+
+.about-body {
+
+}
+
+.about-staff {
+
+}
+
+.about-map {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	width: 40vw;
+}
+
+.about-contact {
+
 }
 
 footer p {

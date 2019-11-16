@@ -28,8 +28,8 @@ img {
 	width: 50vw;
 }
 
-.subpage-logo {
-	margin: 20% auto;
+.subpage-logo-container {
+	margin: 20px auto;
 	width: 40vw;
 }
 
@@ -46,6 +46,10 @@ h2 {
 	font-size: 15px;
 	color: white;
 	padding-bottom: 4px;
+}
+
+.subpage-nav-container {
+	display: none;
 }
 
 nav {
@@ -126,11 +130,15 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-	.subpage-logo {
+	.subpage-logo-container {
 		display: inline-block;
 		width: 20vw;
 		margin-top: 40px;
 		margin-left: 7vw;
+	}
+
+	.subpage-nav-container {
+		display: inline-block;
 	}
 
 	nav {

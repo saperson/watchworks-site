@@ -28,6 +28,10 @@ img {
 	width: 50vw;
 }
 
+.homepage-nav-container {
+	margin-top: 20vw;
+}
+
 .subpage-logo-container {
 	margin: 20px auto;
 	width: 40vw;
@@ -163,6 +167,27 @@ footer {
 		grid-gap: 20px;
 		width: 80%;
 		margin: auto 7vw;
+	}
+
+	.about-body {
+		display: inline-block;
+	}
+
+	.about-staff {
+		display: inline-block;
+	}
+
+	.about-map {
+		display: inline-block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin: auto;
+		width: 40vw;
+	}
+
+	.about-contact {
+		display: inline-block;
+		width: 40vw;
 	}
 
 	footer {

@@ -1,11 +1,10 @@
-/* Enter your Styles below! */
-
 html {
 	height: 100%;
 }
 
 body {
 	height: 100%;
+	overflow-x: hidden;
 /*	background-color: gray;*/
 	background: rgb(39,32,22);
 	background: linear-gradient(180deg, rgba(39,32,22,1) 0%, rgba(71,66,59,1) 25%, rgba(110,105,100,1) 100%);
@@ -30,7 +29,10 @@ img {
 }
 
 .subpage-logo {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	width: 40vw;
 }
 
@@ -103,7 +105,9 @@ p {
 }
 
 .grid div {
-	background-color: darkgray;
+	display: flex;
+	align-items: center;
+	background-color: #3b3b3b;
 	padding: 20px;
 }
 
@@ -127,7 +131,6 @@ p {
 }
 
 footer {
-	display: flex;
 	position: absolute;
 	padding: 7vw;
 	margin-top: 7vw;
@@ -170,8 +173,14 @@ footer {
 	.grid {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
-		width: 70%;
-		margin: auto;
+		width: 80%;
+		margin: auto 7vw;
+	}
+
+	footer {
+		padding: 2vw;
+		position: absolute;
+		bottom: 0;
 	}
 }
 
@@ -191,6 +200,6 @@ footer {
 	}
 
 	.grid {
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }

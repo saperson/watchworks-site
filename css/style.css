@@ -32,17 +32,23 @@ img {
 	margin-top: 20vw;
 }
 
-.subpage-logo-container {
-	margin: 20px auto;
-	width: 40vw;
-}
-
 .homepage-grid {
 	display: none;
 	vertical-align: right;
 	margin-right: 0;
 	grid-template-columns: 1fr;
 }
+
+.subpage-logo-container {
+	margin: 20px auto;
+	width: 40vw;
+}
+
+.subpage-nav-container {
+	display: none;
+}
+
+
 
 h2 {
 	font-family: Henderson Slab, sans-serif;
@@ -52,9 +58,7 @@ h2 {
 	padding-bottom: 4px;
 }
 
-.subpage-nav-container {
-	display: none;
-}
+
 
 nav {
 	display: block;
@@ -116,7 +120,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
-	width: 40vw;
+	width:70%;
 }
 
 .about-contact {
@@ -133,7 +137,14 @@ footer {
 	font-family: Usual, sans-serif;
 }
 
+/*Media queries*/
+
 @media only screen and (min-width: 768px) {
+	.homepage-grid {
+		display: inline-block;
+		height: 50vw;
+	}
+
 	.subpage-logo-container {
 		display: inline-block;
 		width: 20vw;
@@ -155,7 +166,7 @@ footer {
 
 	main {
 		max-width: 50vw;
-		padding: 7vw;
+		padding: 4vw 7vw 7vw 7vw;
 	}
 
 	.homepage-grid {
@@ -178,6 +189,7 @@ footer {
 	}
 
 	.about-map {
+		float: left;
 		display: inline-block;
 		padding-top: 20px;
 		padding-bottom: 20px;

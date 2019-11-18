@@ -181,19 +181,17 @@ footer {
 	}
 
 	.about-container {
-		.parent {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(2, 1fr);
-			grid-column-gap: 20px;
-			grid-row-gap: 20px;
-		}
-
-		.about-body { grid-area: 1 / 1 / 2 / 3; }
-		.about-staff { grid-area: 1 / 3 / 2 / 4; }
-		.about-map { grid-area: 2 / 1 / 3 / 2; }
-		.about-contact { grid-area: 2 / 2 / 3 / 4; }
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
 	}
+
+	.about-body { grid-area: 1 / 1 / 2 / 3; }
+	.about-staff { grid-area: 1 / 3 / 2 / 4; }
+	.about-map { grid-area: 2 / 1 / 3 / 2; }
+	.about-contact { grid-area: 2 / 2 / 3 / 4; }
 
 	/*.about-body {
 		display: inline-block;
@@ -218,7 +216,7 @@ footer {
 	}*/
 
 	footer {
-		padding: 2vw;
+		padding: 1vw;
 	}
 }
 

@@ -34,12 +34,12 @@ img {
 	top: 50vw;
 }
 
-/*.homepage-grid {
+.homepage-grid {
 	display: none;
 	vertical-align: right;
 	margin-right: 0;
 	grid-template-columns: 1fr;
-}*/
+}
 
 .subpage-logo-container {
 	margin: 30px auto;
@@ -137,10 +137,19 @@ footer {
 
 /*Media queries*/
 
+/*@media only screen and (min-width: 916px) {
+	nav {
+		display: none;
+	}
+}*/
+
 @media only screen and (min-width: 768px) {
 	.homepage-grid {
 		display: inline-block;
 		height: 50vw;
+		position:fixed;
+		top: 0;
+  		left:70%;
 	}
 
 	.homepage-nav-container {
@@ -151,6 +160,7 @@ footer {
 	.top-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		margin-right: 7vw;
 	}
 
 	.subpage-logo-container {
@@ -162,6 +172,12 @@ footer {
 
 	.subpage-nav-container {
 		display: inline-block;
+	}
+
+	.services-img-container {
+		position: fixed;
+		right: 5vw;
+		top: 25vw;
 	}
 
 	h1 {

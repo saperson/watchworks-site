@@ -17,6 +17,7 @@ h1 {
 	font-weight: 300;
 	font-size: 35px;
 	color: white;
+	text-align: center;
 }
 
 img {
@@ -29,15 +30,17 @@ img {
 }
 
 .homepage-nav-container {
-	margin-top: 20vw;
+	position: absolute;
+	top: 50vw;
+	left: 50vw;
 }
 
-.homepage-grid {
+/*.homepage-grid {
 	display: none;
 	vertical-align: right;
 	margin-right: 0;
 	grid-template-columns: 1fr;
-}
+}*/
 
 .subpage-logo-container {
 	margin: 30px auto;
@@ -116,7 +119,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
-	width:70%;
+	width:100%;
 }
 
 .about-contact {
@@ -152,12 +155,16 @@ footer {
 		display: inline-block;
 	}
 
+	h1 {
+		text-align: left;
+	}
+
 	nav {
 		display: inline-block;
 		list-style-type: none;
 		text-decoration: none;
 		margin: auto;
-		width: 50%;
+		width: 93%;
 	}
 
 	nav ul {

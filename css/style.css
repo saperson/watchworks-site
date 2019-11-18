@@ -50,6 +50,10 @@ img {
 	display: none;
 }
 
+.services-img-container {
+
+}
+
 h2 {
 	font-family: Henderson Slab, sans-serif;
 	font-weight: 700;
@@ -76,7 +80,7 @@ nav a {
 nav ul li {	
 	display: inline;
 	float: center;
-	padding: 15px;
+	padding-left: 100px;
 }
 
 main {
@@ -93,10 +97,13 @@ p {
 
 .grid {
 	display: inline-grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
 	width: 90%;
 	margin: 0vw 7vw;
+	margin-top: 0vw;
+	margin-left: 7vw;
+	margin-right: 7vw;
 }
 
 .grid div {
@@ -133,6 +140,7 @@ footer {
 	width: 100vw;
 	color: white;
 	font-family: Usual, sans-serif;
+	font-size: 13px;
 }
 
 /*Media queries*/
@@ -160,7 +168,7 @@ footer {
 	.top-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		margin-right: 7vw;
+		margin-right: 10vw;
 	}
 
 	.subpage-logo-container {
@@ -175,9 +183,10 @@ footer {
 	}
 
 	.services-img-container {
+		width: 150px;
 		position: fixed;
-		right: 5vw;
-		top: 25vw;
+		right: 7vw;
+		top: 20vw;
 	}
 
 	h1 {
@@ -263,7 +272,7 @@ footer {
 	}*/
 
 	footer {
-		padding: 1vw;
+		padding: 1vw 1vw 1vw 7vw;
 	}
 }
 

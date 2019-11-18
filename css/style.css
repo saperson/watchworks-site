@@ -32,7 +32,6 @@ img {
 .homepage-nav-container {
 	position: absolute;
 	top: 50vw;
-	left: 50vw;
 }
 
 /*.homepage-grid {
@@ -144,6 +143,16 @@ footer {
 		height: 50vw;
 	}
 
+	.homepage-nav-container {
+		width: 50vw;
+		margin: auto;
+	}
+
+	.top-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
 	.subpage-logo-container {
 		display: inline-block;
 		width: 20vw;
@@ -171,6 +180,17 @@ footer {
 		float: right;
 	}
 
+	a {
+		border-bottom: 1px solid transparent;
+	}
+
+	a:hover {
+		color: #e6cb7a;
+		transition: all .3s ease-in-out;
+		fill: #e6cb7a;
+		border-color: #e6cb7a;
+	}
+
 	main {
 		max-width: 50vw;
 		padding: 4vw 7vw 7vw 7vw;
@@ -185,6 +205,10 @@ footer {
 		grid-gap: 20px;
 		width: 80%;
 		margin: auto 7vw;
+	}
+
+	.about-main {
+		max-width: 60vw;
 	}
 
 	.about-container {

@@ -12,6 +12,10 @@ body {
 	background-attachment: fixed;
 }
 
+p {
+	max-width: 75ch;
+}
+
 h1 {
 	font-family: Henderson Slab, sans-serif;
 	font-weight: 300;
@@ -52,7 +56,6 @@ img {
 .subpage-logo-container {
 	margin: 30px auto;
 	width: 40vw;
-	pointer-events: none;
 }
 
 .subpage-nav-container {
@@ -241,6 +244,15 @@ footer {
 		grid-gap: 20px;
 		width: 80%;
 		margin: auto 7vw;
+	}
+
+	.grid a:hover {
+		border-bottom: 0;
+	}
+
+	.grid div:hover {
+		background-color: #9c9167;
+		transition: all .3s ease-in-out;
 	}
 
 	.about-main {

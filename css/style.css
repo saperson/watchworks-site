@@ -51,7 +51,7 @@ img {
 }
 
 .services-img-container {
-
+	display: none;
 }
 
 h2 {
@@ -152,6 +152,10 @@ footer {
 }*/
 
 @media only screen and (min-width: 768px) {
+	img {
+		width: 100%;
+	}
+
 	.homepage-grid {
 		display: inline-block;
 		height: 50vw;
@@ -183,10 +187,11 @@ footer {
 	}
 
 	.services-img-container {
-		width: 150px;
+		display: block;
 		position: fixed;
-		right: 7vw;
-		top: 20vw;
+		width: 30vw;
+		right: 4vw;
+		top: 22vw;
 	}
 
 	h1 {
@@ -240,7 +245,7 @@ footer {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(2, 1fr);
-		grid-column-gap: 20px;
+		grid-column-gap: 85px;
 		grid-row-gap: 20px;
 	}
 

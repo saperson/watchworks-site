@@ -30,6 +30,7 @@ img {
 
 .homepage-logo-container {
 	margin: 40px auto;
+	margin-bottom: -10px;
 	width: 75vw;
 	pointer-events: none;
 	transition: ease all .3s;
@@ -42,6 +43,10 @@ img {
 	margin: auto;
 	text-align: center;
 	transition: ease all .3s;
+}
+
+.homepage-nav ul li {
+	padding: 2vw;
 }
 
 .homepage-nav a {
@@ -181,8 +186,12 @@ footer {
 		padding-top: 10vw;
 	}
 
+	.homepage-nav ul li {
+		padding: .5vw;
+	}
+
 	.homepage-nav a {
-		font-size: 15px;
+		font-size: 20px;
 		padding: 5px;
 	}
 

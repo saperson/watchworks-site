@@ -53,6 +53,7 @@ img {
 .homepage-image {
 	position: fixed;
 	top: 90vw;
+	transition: ease all .5s;
 }
 
 .homepage-grid {
@@ -132,23 +133,11 @@ p {
 	transition: all .3s ease-in-out;
 }
 
-.about-body {
-
-}
-
-.about-staff {
-
-}
-
 .about-map {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
 	width:100%;
-}
-
-.about-contact {
-
 }
 
 footer {
@@ -175,10 +164,22 @@ footer {
 		width: 100%;
 	}
 
+	.homepage-logo-container {
+		margin-top: 40px;
+	}
+
+	.homepage-nav {
+		padding-top: 10vw;
+	}
+
+	.homepage-nav a {
+		font-size: 20px;
+	}
+
 	.homepage-image {
-		position: fixed;
-		top: 20vw;
-		left: 62vw;
+		top: 29vw;
+		left: 35vw;
+		transform: rotate(90deg);
 	}
 
 	.homepage-grid {

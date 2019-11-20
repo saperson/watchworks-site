@@ -30,7 +30,7 @@ img {
 
 .homepage-logo-container {
 	margin: 30px auto;
-	width: 40vw;
+	width: 60vw;
 	pointer-events: none;
 	transition: ease all .5s;
 }
@@ -53,8 +53,10 @@ img {
 }
 
 .homepage-image {
+	width: 67.5vw;
 	position: fixed;
-	top: 90vw;
+	top: 102vw;
+	left: 19vw;
 	transition: ease all .5s;
 }
 
@@ -66,11 +68,13 @@ img {
 }
 
 .subpage-logo-container {
+	transition: ease all .5s;
 	margin: 30px auto;
 	width: 40vw;
 }
 
 .subpage-nav-container {
+	transition: ease all .5s;
 	display: none;
 }
 
@@ -167,7 +171,10 @@ footer {
 	}
 
 	.homepage-logo-container {
-		margin-top: 40px;
+		transition: ease all .5s;
+		width: 40vw;
+		margin-top: 60px;
+		margin-bottom: -15px;
 	}
 
 	.homepage-nav {
@@ -179,8 +186,9 @@ footer {
 	}
 
 	.homepage-image {
-		top: 29vw;
-		left: 35vw;
+		width: 22vw;
+		top: 32vw;
+		left: 38vw;
 		transform: rotate(90deg);
 	}
 
@@ -276,8 +284,8 @@ footer {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(2, 1fr);
-		grid-column-gap: 85px;
-		grid-row-gap: 20px;
+		grid-column-gap: 60px;
+		grid-row-gap: 5px;
 	}
 
 	.about-body { grid-area: 1 / 1 / 2 / 3; }

@@ -32,6 +32,7 @@ img {
 	margin: 30px auto;
 	width: 40vw;
 	pointer-events: none;
+	transition: ease all .5s;
 }
 
 .homepage-nav {
@@ -40,6 +41,7 @@ img {
 	grid-template-rows: 1fr 1fr 1fr;
 	margin: auto;
 	text-align: center;
+	transition: ease all .5s;
 }
 
 .homepage-nav a {
@@ -188,7 +190,7 @@ footer {
 		display: grid;
 		position:fixed;
 		top: 0;
-  		left:70%;
+  		left: 70%;
 	}
 
 	.top-container {

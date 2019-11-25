@@ -195,6 +195,32 @@ footer {
 		transform: rotate(90deg);
 	}
 
+	.slideshow {
+	 	position: relative;
+	 	overflow: hidden;
+	}
+	.images {
+		background: url(slideshow.jpg);
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 300%;
+		animation: slideshow 10s linear infinite;
+		transform: translate3d(0, 0, 0);
+	}
+	
+	@keyframes slideshow {
+		0%    { left: 0; }
+		100%  { left: -200%; }
+	}
+
+	@keyframes moveSlideshow {  
+	  100% { 
+	    -webkit-transform: translateX(-200%);  
+	  }
+	}
+
 	.homepage-grid {
 		align-items: center;
 		justify-content: center;

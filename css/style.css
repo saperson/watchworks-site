@@ -200,6 +200,8 @@ footer {
 		transform: rotate(90deg);
 	}
 
+	/*Slideshow styles*/
+
 	.tech-slideshow {
 		display: block;
 		height: 300px;
@@ -225,9 +227,9 @@ footer {
 	}
 	
 	@keyframes moveSlideshow {
-	  100% { 
-	    transform: translateX(-66.6666%);  
-	  }
+		66% { 
+			transform: translateX(-66.6666%);  
+		}
 	}
 
 	.homepage-grid {

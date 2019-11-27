@@ -359,8 +359,6 @@ footer {
 	.about-contact { grid-area: 2 / 2 / 3 / 4; }
 
 	footer {
-		position: fixed;
-		bottom: 0;
 		padding: 1vw 1vw 1vw 7vw;
 	}
 }

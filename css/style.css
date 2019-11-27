@@ -318,7 +318,7 @@ footer {
 		transition: all .3s ease-in-out;
 		fill: #e6cb7a;
 		border-color: #e6cb7a;
-		cursor: url('images/watch-hand-cursor.png'), pointer;
+		cursor: url("images/watch-hand-cursor.png"), pointer;
 	}
 
 	main {

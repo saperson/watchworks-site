@@ -15,13 +15,16 @@
 <body style="overflow: hidden;">
 	
 	<div class="fullscreen-bg">
-		<div class="video-overlay"></div>
+		<div class="video-overlay">
+			<!-- Overlay darkens video slightly to keep menu visible -->
+		</div>
 		<video class="fullscreen-bg__video" preload="true" autoplay loop muted>
 			<source src="videos/speedmaster-process.mp4" type="video/webm">
 		</video>
 	</div>
 
 	<div class="homepage-z-index-container" style="z-index: 10;">
+		<!-- Inline style just to keep content above video -->
 		<div class="homepage-logo-container">
 			<a href="index.html"><img src="images/logo.png" alt="Watchworks logo"></a>
 		</div>

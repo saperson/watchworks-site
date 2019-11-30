@@ -110,9 +110,8 @@ nav a {
 	text-decoration: none;
 }
 
-nav ul li {	
+nav ul li {
 	display: inline;
-	float: center;
 	padding-left: 100px;
 }
 
@@ -149,6 +148,7 @@ p {
 .grid div:hover {
 	background-color: #9c9167;
 	transition: ease all .3s;
+	cursor: url("images/watchhandcursor.svg"), crosshair;
 }
 
 .about-map {
@@ -314,12 +314,11 @@ footer {
 	}
 
 	a:hover {
-		cursor: url("images/watch-hand-cursor.png"), pointer;
+		cursor: url("images/watchhandcursor.svg"), crosshair !important;
 		color: #e6cb7a;
 		transition: all .3s ease-in-out;
 		fill: #e6cb7a;
 		border-color: #e6cb7a;
-		
 	}
 
 	main {

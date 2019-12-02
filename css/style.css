@@ -308,12 +308,17 @@ footer {
 	/*Watch hover styles*/
 
 	.services-img-container {
+		animation: slide 1.5s forwards;
 		transition: ease all .3s;
 		display: block;
 		position: fixed;
 		width: 30vw;
-		right: 4vw;
 		top: 18vw;
+	}
+
+	@keyframes slide {
+		0% { right: -50vw; }
+		100% { right: 4vw; }
 	}
 
 	.services-img-container .navitimer-movement-bottom {

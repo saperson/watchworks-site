@@ -375,8 +375,8 @@ footer {
 	}
 
 	.grid div:hover {
-		background-color: #9c9167;
 		transition: all .3s ease-in-out;
+		background-color: #9c9167;
 	}
 
 	/*About page grid styles*/

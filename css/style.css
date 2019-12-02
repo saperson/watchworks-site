@@ -155,7 +155,7 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
-	width:100%;
+	width: 100%;
 }
 
 footer {
@@ -299,9 +299,13 @@ footer {
 	.services-hover-text {
 		text-align: center; 
 		margin-left: -7%; 
-		margin-top: -10%; 
+		margin-top: -15%; 
 		margin-bottom: 5%;
+		font-weight: 300;
+		line-height: 25px;
 	}
+
+	/*Watch hover styles*/
 
 	.services-img-container {
 		transition: ease all .3s;
@@ -334,6 +338,8 @@ footer {
 		opacity: 0
 	}
 
+	/*General styles*/
+
 	h1 {
 		text-align: left;
 	}
@@ -355,6 +361,8 @@ footer {
 		padding: 4vw 7vw 7vw 7vw;
 	}
 
+	/*Grid styles*/
+
 	.grid {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 20px;
@@ -370,6 +378,8 @@ footer {
 		background-color: #9c9167;
 		transition: all .3s ease-in-out;
 	}
+
+	/*About page grid styles*/
 
 	.about-main {
 		max-width: 60vw;

@@ -308,20 +308,23 @@ footer {
 	.services-img-container .navitimer-movement-bottom {
 		position: relative;
 		z-index: 99;
+		opacity: 1;
 	}
 
 	.services-img-container .navitimer-movement-top {
 		position: absolute;
 		transform: translateX(-100%);
+		opacity: 0;
 	}
 
 	.services-img-container:hover .navitimer-movement-top {
-		transition: visibility .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		opacity: 1;
 	}
 
 	.services-img-container:hover .navitimer-movement-bottom {
-		transition: visibility .3s ease-in-out;
-		visibility: hidden;
+		transition: all .3s ease-in-out;
+		opacity: 0
 	}
 
 	h1 {

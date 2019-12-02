@@ -317,24 +317,24 @@ footer {
 	}
 
 	.services-img-container .navitimer-movement-bottom {
+		transition: ease all .3s;
 		position: relative;
 		z-index: 99;
 		opacity: 1;
 	}
 
 	.services-img-container .navitimer-movement-top {
+		transition: ease all .3s;
 		position: absolute;
 		transform: translateX(-100%);
 		opacity: 0;
 	}
 
 	.services-img-container:hover .navitimer-movement-top {
-		transition: all .3s ease-in-out;
 		opacity: 1;
 	}
 
 	.services-img-container:hover .navitimer-movement-bottom {
-		transition: all .3s ease-in-out;
 		opacity: 0
 	}
 
@@ -349,7 +349,7 @@ footer {
 	}
 
 	a:hover {
-		cursor: url("images/watchhandcursor.svg"), crosshair !important;
+		cursor: url("images/watchhandcursor.svg"), crosshair;
 		color: #e6cb7a;
 		transition: all .3s ease-in-out;
 		fill: #e6cb7a;

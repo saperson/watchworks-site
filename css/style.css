@@ -296,6 +296,13 @@ footer {
 		margin: auto;
 	}
 
+	.services-hover-text {
+		text-align: center; 
+		margin-left: -7%; 
+		margin-top: -10%; 
+		margin-bottom: 5%;
+	}
+
 	.services-img-container {
 		transition: ease all .3s;
 		display: block;

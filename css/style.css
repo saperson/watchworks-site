@@ -382,7 +382,7 @@ footer {
 	}
 
 	a:hover {
-		cursor: url("images/watchhandcursor.svg"), crosshair;
+		cursor: url("images/watchhandcursor.svg"), pointer;
 		color: #e6cb7a;
 		transition: all .3s ease-in-out;
 		fill: #e6cb7a;

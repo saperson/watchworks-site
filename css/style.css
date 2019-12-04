@@ -36,12 +36,23 @@ img {
 }
 
 .homepage-nav {
+	animation: slidein .75s forwards;
 	padding-top: 20vw;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	margin: auto;
 	text-align: center;
-	transition: ease all .3s;
+	transition: ease all .5s;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(-200%);
+  }
+
+  to {
+    transform: translateY(2%);
+  }
 }
 
 .homepage-nav ul li {
@@ -184,6 +195,7 @@ footer {
 	}
 
 	.homepage-nav {
+		animation: none;
 		padding-top: 10vw;
 	}
 

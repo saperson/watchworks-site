@@ -174,7 +174,6 @@ p {
 .grid div:hover {
 	background-color: #9c9167;
 	transition: ease all .3s;
-	cursor: url("images/watchhandcursor.svg"), pointer;
 }
 
 .about-map {
@@ -368,7 +367,7 @@ footer {
 	}
 
 	.services-img-container:hover .navitimer-movement-bottom {
-		opacity: 0
+		opacity: 0;
 	}
 
 	/*General styles*/
@@ -382,7 +381,7 @@ footer {
 	}
 
 	a:hover {
-		cursor: url("images/watchhandcursor.svg"), pointer;
+		cursor: url("../images/watchhandcursor.png"), crosshair;
 		color: #e6cb7a;
 		transition: all .3s ease-in-out;
 		fill: #e6cb7a;

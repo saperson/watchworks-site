@@ -1,2 +1,1 @@
-# project-two-template
-Project two template for des 341
+All watch images come from their respective manufacturers. Homepage video from Watchfinder & Co. on YouTube (https://www.youtube.com/watch?v=6hDvSZa8Ivk).

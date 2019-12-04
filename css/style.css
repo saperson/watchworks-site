@@ -159,7 +159,7 @@ p {
 .grid div:hover {
 	background-color: #9c9167;
 	transition: ease all .3s;
-	cursor: url("images/watchhandcursor.svg"), crosshair;
+	cursor: url("images/watchhandcursor.svg"), pointer;
 }
 
 .about-map {

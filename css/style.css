@@ -1,5 +1,6 @@
 html {
 	height: 100%;
+	cursor: url("../images/clockhandcursor.png"), auto;
 }
 
 body {
@@ -383,9 +384,9 @@ footer {
 	}
 
 	a:hover {
-		cursor: url("../images/clockhandcursor.png"), crosshair;
-		color: #e6cb7a;
 		transition: all .3s ease-in-out;
+		cursor: url("../images/clockhandcursorhover.png"), auto;
+		color: #e6cb7a;
 		fill: #e6cb7a;
 		border-color: #e6cb7a;
 	}

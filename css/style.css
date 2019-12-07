@@ -16,7 +16,7 @@ p {
 }
 
 h1 {
-	font-family: henderson-slab-basic, sans-serif;
+	font-family: henderson-slab-basic, serif;
 	font-weight: 300;
 	font-size: 35px;
 	color: white;
@@ -75,7 +75,7 @@ img {
 }
 
 .homepage-nav a {
-	font-family: henderson-slab-basic, sans-serif;
+	font-family: henderson-slab-basic, serif;
 	font-weight: 300;
 	font-size: 25px;
 	color: white;
@@ -121,7 +121,7 @@ img {
 }
 
 h2 {
-	font-family: henderson-slab-basic, sans-serif;
+	font-family: henderson-slab-basic, serif;
 	font-weight: 700;
 	font-size: 15px;
 	color: white;
@@ -129,7 +129,7 @@ h2 {
 }
 
 nav a {
-	font-family: henderson-slab-basic, sans-serif;
+	font-family: henderson-slab-basic, serif;
 	font-weight: 300;
 	font-size: 15px;
 	color: white;

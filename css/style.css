@@ -38,15 +38,15 @@ img {
 }
 
 @keyframes slidein {
-  from {
-	opacity: 0;
-	transform: translateY(-200%);
-  }
+	from {
+		opacity: 0;
+		transform: translateY(-200%);
+	}
 
-  to {
-	opacity: 1;
-	transform: translateY(100%);
-  }
+	to {
+		opacity: 1;
+		transform: translateY(100%);
+	}
 }
 
 .homepage-nav {
@@ -203,16 +203,40 @@ footer {
 	}
 
 	.homepage-logo-container {
-		animation: none;
+		animation: slidein 1.5s forwards;
 		transition: ease all .3s;
 		width: 30vw;
 		margin-top: 200px;
 		margin-bottom: -100px;
 	}
 
+	@keyframes slidein {
+		from {
+			opacity: 0;
+			transform: translateY(-200%);
+		}
+
+		to {
+			opacity: 1;
+			transform: translateY(30%);
+		}
+	}
+
 	.homepage-nav {
-		animation: none;
+		animation: slidein 1.5s forwards;
 		padding-top: 10vw;
+	}
+
+	@keyframes slidein {
+		from {
+			opacity: 0;
+			transform: translateY(-200%);
+		}
+
+		to {
+			opacity: 1;
+			transform: translateY(5%);
+		}
 	}
 
 	.homepage-nav ul li {

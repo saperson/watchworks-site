@@ -218,7 +218,7 @@ footer {
 	@keyframes slidein {
 		from {
 			opacity: 0;
-			transform: translateY(300%)
+			transform: translateY(300%);
 		}
 
 		to {
@@ -276,6 +276,69 @@ footer {
 		opacity: 0.5;
 	}
 
+	/*Watch hover styles*/
+
+	.services-img-container {
+		animation: slide 1.5s forwards;
+		transition: ease all .3s;
+		display: block;
+		position: fixed;
+		width: 30vw;
+		top: 18vw;
+	}
+
+	@keyframes slide {
+		0% { right: -50vw; }
+		100% { right: 4vw; }
+	}
+
+	.services-img-container .navitimer-movement-bottom {
+		transition: ease all .3s;
+		position: relative;
+		z-index: 99;
+		opacity: 1;
+	}
+
+	.services-img-container .navitimer-movement-top {
+		transition: ease all .3s;
+		position: absolute;
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+
+	.services-img-container:hover .navitimer-movement-top {
+		opacity: 1;
+	}
+
+	.services-img-container:hover .navitimer-movement-bottom {
+		opacity: 0;
+	}
+
+	
+
+	/*General styles*/
+
+	h1 {
+		text-align: left;
+	}
+
+	a {
+		border-bottom: 1px solid transparent;
+	}
+
+	a:hover {
+		transition: all .3s ease-in-out;
+		cursor: url("../images/clockhandcursorhover.png"), auto;
+		color: #e6cb7a;
+		fill: #e6cb7a;
+		border-color: #e6cb7a;
+	}
+
+	main {
+		max-width: 50vw;
+		padding: 4vw 7vw 7vw 7vw;
+	}
+
 	.homepage-grid {
 		align-items: center;
 		justify-content: center;
@@ -315,65 +378,21 @@ footer {
 		line-height: 25px;
 	}
 
-	/*Watch hover styles*/
-
-	.services-img-container {
-		animation: slide 1.5s forwards;
-		transition: ease all .3s;
-		display: block;
-		position: fixed;
-		width: 30vw;
-		top: 18vw;
-	}
-
-	@keyframes slide {
-		0% { right: -50vw; }
-		100% { right: 4vw; }
-	}
-
-	.services-img-container .navitimer-movement-bottom {
-		transition: ease all .3s;
-		position: relative;
-		z-index: 99;
-		opacity: 1;
-	}
-
-	.services-img-container .navitimer-movement-top {
-		transition: ease all .3s;
-		position: absolute;
-		transform: translateX(-100%);
-		opacity: 0;
-	}
-
-	.services-img-container:hover .navitimer-movement-top {
-		opacity: 1;
-	}
-
-	.services-img-container:hover .navitimer-movement-bottom {
-		opacity: 0;
-	}
-
-	/*General styles*/
-
-	h1 {
-		text-align: left;
-	}
-
-	a {
-		border-bottom: 1px solid transparent;
-	}
-
-	a:hover {
-		transition: all .3s ease-in-out;
-		cursor: url("../images/clockhandcursorhover.png"), auto;
-		color: #e6cb7a;
-		fill: #e6cb7a;
-		border-color: #e6cb7a;
-	}
-
-	main {
-		max-width: 50vw;
-		padding: 4vw 7vw 7vw 7vw;
+	.services-button {
+		background-color: rgba(0, 0, 0, 0);
+		color: white;
+		font-family: henderson-slab-basic, serif;
+		font-weight: 700;
+		font-size: 15px;
+		letter-spacing: 10px;
+		font-size: 12px;
+		text-align: center; 
+		margin-left: 12%; 
+		margin-top: -15%; 
+		margin-bottom: 5%;
+		font-weight: 300;
+		line-height: 25px;
+		border: none;
 	}
 
 	/*Grid styles*/
